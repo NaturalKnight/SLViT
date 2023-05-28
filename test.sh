@@ -1,1 +1,1 @@
-CUDA_VISIBLE_DEVICES=4 python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 test.py --model slvit --swin_type base --dataset refcoco --split val --resume [PATH] --workers 4 --ddp_trained_weights --window12 --img_size 480
+CUDA_VISIBLE_DEVICES=4 python -m torch.distributed.launch --nproc_per_node 1 --master_port 12345 test.py --model slvit --dataset refcoco --split val --resume [PATH] --workers 4 --ddp_trained_weights --window12 --img_size 480
