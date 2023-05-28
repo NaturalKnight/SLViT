@@ -10,6 +10,12 @@ Download images from [COCO](https://cocodataset.org/#download). Please use the f
 - python 3.7.0
 - pytorch 1.7.1
 - torchvision 0.8.2
+- torchaudio 0.7.2
+- mmcv-full 1.3.12
+- mmsegmentation 0.17.0
+- pycocotools 2.0.2
+- opencv-python 4.5.3.56
+- tokenizers 0.8.1rc1
 
 ## Reference
 - [LAVT](https://github.com/yz93/LAVT-RIS)
