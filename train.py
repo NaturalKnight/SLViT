@@ -212,7 +212,7 @@ def main(args):
     print(args.model)
     # model = torch.load('./checkpoints/model_best_qfmid1_refcoco.pth')
 
-    model = segmentation.__dict__[args.model](pretrained=args.pretrained_swin_weights,
+    model = segmentation.__dict__[args.model](pretrained=args.pretrained_weights,
                                               args=args)
     model = torch.nn.SyncBatchNorm.convert_sync_batchnorm(model)
     model.cuda()
