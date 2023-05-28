@@ -13,3 +13,4 @@ Download images from [COCO](https://cocodataset.org/#download). Please use the f
 
 ## Reference
 - [LAVT](https://github.com/yz93/LAVT-RIS)
+- [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt)
